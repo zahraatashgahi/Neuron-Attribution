@@ -1,0 +1,129 @@
+{
+  "coil20": {
+    "type": "classification",
+    "loader": "load_coil20",
+    "num_features": 1024,
+    "num_outputs": 20,
+    "lr": 0.001
+  },
+  "isolet": {
+    "type": "classification",
+    "loader": "load_isolet",
+    "num_features": 617,
+    "num_outputs": 26,
+    "lr": 0.001
+  },
+  "usps": {
+    "type": "classification",
+    "loader": "load_usps",
+    "num_features": 256,
+    "num_outputs": 10,
+    "lr": 0.001
+  },
+ 
+  "har": {
+    "type": "classification",
+    "loader": "load_har",
+    "num_features": 561,
+    "num_outputs": 6,
+    "lr": 0.001
+  },
+  "madelon": {
+    "type": "classification",
+    "loader": "load_madelon",
+    "num_features": 500,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+    "BASEHOCK": {
+    "type": "classification",
+    "loader": "load_BASEHOCK",
+    "num_features": 4862,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+   "PCMAC": {
+    "type": "classification",
+    "loader": "load_PCMAC",
+    "num_features": 3289,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+   "Arcene": {
+    "type": "classification",
+    "loader": "load_Arcene",
+    "num_features": 10000,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+  "Prostate_GE": {
+    "type": "classification",
+    "loader": "load_Prostate_GE",
+    "num_features": 5966,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+    "SMK": {
+    "type": "classification",
+    "loader": "load_SMK",
+    "num_features": 19993,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+  "CLL": {
+    "type": "classification",
+    "loader": "load_CLL",
+    "num_features": 11340,
+    "num_outputs": 3,
+    "lr": 0.001
+  },
+   "Carcinom": {
+    "type": "classification",
+    "loader": "load_Carcinom",
+    "num_features": 9182,
+    "num_outputs": 11,
+    "lr": 0.001
+  },
+  "RELATHE": {
+    "type": "classification",
+    "loader": "load_RELATHE",
+    "num_features": 4322,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+  "ORL": {
+    "type": "classification",
+    "loader": "load_ORL",
+    "num_features": 1024,
+    "num_outputs": 40,
+    "lr": 0.001
+  },
+  "Yale": {
+    "type": "classification",
+    "loader": "load_Yale",
+    "num_features": 1024,
+    "num_outputs": 15,
+    "lr": 0.001
+  },
+  "gisette": {
+    "type": "classification",
+    "loader": "load_gisette",
+    "num_features": 5000,
+    "num_outputs": 2,
+    "lr": 0.001
+  },
+  "lymphoma": {
+    "type": "classification",
+    "loader": "load_lymphoma",
+    "num_features": 4026,
+    "num_outputs": 9,
+    "lr": 0.001
+  },
+  "mnist": {
+    "type": "classification",
+    "loader": "load_mnist",
+    "num_features": 784,
+    "num_outputs": 10,
+    "lr": 0.001
+  }
+ }
